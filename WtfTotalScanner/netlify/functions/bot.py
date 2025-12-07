@@ -435,7 +435,7 @@ def handler(event, context):
         }
 
 # ====== ЛОКАЛЬНОЕ ТЕСТИРОВАНИЕ ======
-if name == 'main':
+if __name__ == '__main__':
     print("WTF Total Scanner Bot")
     print("=" * 50)
     print(f"TELEGRAM_TOKEN: {'✅' if TELEGRAM_TOKEN else '❌'}")
