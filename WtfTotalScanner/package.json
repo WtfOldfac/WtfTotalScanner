@@ -1,8 +1,0 @@
-{ 
-  "name": "wtf-total-scanner", 
-  "version": "1.0.0", 
-  "description": "Telegram bot for VirusTotal file scanning", 
-  "scripts": { 
-    "build": "echo 'Python build completed'" 
-  } 
-} 
